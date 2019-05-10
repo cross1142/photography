@@ -1,0 +1,331 @@
+@import "nav.scss";
+@import "walfare.scss";
+$bg-color: #000;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// html,
+// body {
+//     width: 100%;
+//     height: 100%;
+// }
+.header {
+    width: 100%;
+    height: 750px;
+    background-color: rgb(0, 0, 0);
+    .header-nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 76px;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 100;
+        .header-nav-center {
+            position: relative;
+            width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, .5);
+            .logo {
+                display: block;
+                width: 300px;
+                height: 100%;
+            }
+            .nav-text {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 550px;
+                height: 100%;
+                li {
+                    width: 80px;
+                    height: 100%;
+                    float: left;
+                    margin-left: 10px;
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 36px;
+                        margin-top: 20px;
+                        color: white;
+                        line-height: 36px;
+                        text-align: center;
+                        font-size: 16px;
+                    }
+                    .homepage {
+                        width: 40px;
+                    }
+                    &:hover {
+                        a {
+                            border-bottom: 1px solid red;
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-center {
+        position: relative;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        // background-color: #fff;
+        .swiper {
+            position: absolute;
+            left: 0;
+            width: 300%;
+            height: 100%;
+            .sildes {
+                float: left;
+                width: 1200px;
+                height: 100%;
+            }
+        }
+        .dotts {
+            position: absolute;
+            bottom: 90px;
+            left: 50%;
+            margin-left: -50px;
+            width: 100px;
+            height: 20px;
+            li {
+                width: 20px;
+                height: 100%;
+                float: left;
+                background-color: #fff;
+                border-radius: 50%;
+                margin-left: 25px;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%
+                }
+            }
+        }
+        .go-next {
+            position: absolute;
+            top: 50%;
+            margin-top: -30px;
+            display: block;
+            width: 30px;
+            height: 60px;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                color: grey;
+                line-height: 60px;
+                font-size: 16px;
+                text-align: center;
+            }
+            &:hover {
+                a {
+                    color: red;
+                }
+            }
+        }
+        .go-next-right.go-next {
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+.header .header-center .dotts li.active {
+    border: 1px solid red;
+}
+
+.header .header-nav-center .nav-text li:nth-child(1) {
+    width: 40px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.header .header-nav-center .nav-text li.active a {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.banner {
+    width: 100%;
+    // height: 2000px;
+    background-color: #000;
+    .works-show {
+        width: 100%;
+        height: 606px;
+        background-color: #000;
+        li {
+            position: relative;
+            width: 23.5%;
+            height: 278px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 30px;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            .works-border {
+                position: absolute;
+                top: 5%;
+                left: 10%;
+                width: 80%;
+                height: 90%;
+                border: 1px solid red;
+                box-sizing: border-box;
+                display: none;
+                span {
+                    position: absolute;
+                    top: 100px;
+                    display: block;
+                    width: 100%;
+                    height: 30px;
+                    color: red;
+                    font-size: 14px;
+                    text-align: center;
+                    line-height: 30px;
+                }
+                p {
+                    position: absolute;
+                    top: 140px;
+                    width: 100%;
+                    height: 30px;
+                    color: #fffefe;
+                    line-height: 30px;
+                    text-align: center;
+                    font-size: 12px;
+                }
+            }
+            &:hover {
+                .works-border {
+                    display: block;
+                }
+            }
+        }
+    }
+    .view-more {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: #dd1717;
+        span {
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+            display: block;
+            width: 200px;
+            height: 100%;
+            color: #fff;
+            line-height: 100px;
+            text-align: center;
+        }
+        span:hover {
+            display: block;
+            box-sizing: border-box;
+            border: 1px solid white;
+        }
+    }
+    .banner-center {
+        position: relative;
+        width: 1200px;
+        // height: 1200px;
+        margin: 0 auto;
+        // background-color: #fff;
+        .walfare-left {
+            margin-top: 30px;
+            width: 516px;
+            height: 954px;
+        }
+        .walfare-right {
+            position: absolute;
+            right: 0;
+            top: 310px;
+            width: 516px;
+            height: 790px;
+        }
+        .walfare-line {
+            position: absolute;
+            left: 602px;
+            top: 150px;
+            display: block;
+            height: 840px;
+            width: 2px;
+            background-color: #313131;
+        }
+    }
+    .about-us {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 541px;
+        background: url(../img/about-us.jpg) no-repeat center;
+        .carmer {
+            position: absolute;
+            left: 50%;
+            top: 174px;
+            margin-left: -27px;
+            width: 53px;
+            height: 53px;
+            background: url(../img/round-logo.jpg) no-repeat center;
+        }
+        .about-us-introduce {
+            position: relative;
+            top: 50px;
+            width: 1200px;
+            height: 200px;
+            margin: 0 auto;
+            li {
+                width: 207px;
+                height: 100%;
+                float: left;
+                margin-left: 120px;
+                span {
+                    display: block;
+                    margin-left: 87px;
+                    width: 32px;
+                    height: 32px;
+                }
+                p {
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}
+
+.banner .works-show li:nth-child(1),
+.banner .works-show li:nth-child(5) {
+    margin-left: 0;
+}
+
+.banner .works-show li:nth-child(1),
+.banner .works-show li:nth-child(2),
+.banner .works-show li:nth-child(3),
+.banner .works-show li:nth-child(4) {
+    margin-top: 0;
+}
+
+.banner-center .walfare-left li:nth-child(1) {
+    margin-top: 0;
+}
+
+.banner .about-us .about-us-introduce li:nth-child(1) {
+    margin-left: 0;
+}

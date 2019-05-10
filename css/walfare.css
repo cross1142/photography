@@ -1,0 +1,216 @@
+.walfare-slides {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 88px; }
+  .walfare-slides a {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #212121; }
+    .walfare-slides a span {
+      position: relative;
+      top: -18px;
+      display: block;
+      width: 100%;
+      height: 50px; }
+      .walfare-slides a span .p1 {
+        width: 100px;
+        height: 100%;
+        color: #fff;
+        line-height: 50px;
+        font-size: 14px;
+        margin-left: 20px; }
+      .walfare-slides a span .p2 {
+        position: absolute;
+        top: 0;
+        left: 214px;
+        width: 100px;
+        height: 100%;
+        color: #fff;
+        line-height: 50px;
+        font-size: 18px; }
+    .walfare-slides a .walfare-dotts {
+      position: relative;
+      left: 594px;
+      top: -142px;
+      display: block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid #313131;
+      border-radius: 50%; }
+    .walfare-slides a .walfare-dotts-right {
+      position: relative;
+      left: -90px;
+      top: -120px; }
+  .walfare-slides:hover {
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-bottom: none; }
+    .walfare-slides:hover a {
+      background-color: #dd1717; }
+      .walfare-slides:hover a .walfare-dotts {
+        border-color: #dd1717; }
+  .walfare-slides img {
+    width: 100%;
+    height: 100%; }
+
+.footer {
+  overflow: hidden;
+  width: 100%;
+  background-color: #000; }
+  .footer .footer-center {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer .footer-center .medical-equipment {
+      width: 100%;
+      height: 276px; }
+      .footer .footer-center .medical-equipment li {
+        position: relative;
+        top: 46px;
+        width: 170px;
+        height: 100%;
+        float: left;
+        margin-left: 25px; }
+        .footer .footer-center .medical-equipment li .order {
+          margin-left: 62px;
+          display: block;
+          width: 55px;
+          height: 76px;
+          color: white;
+          background: url(../img/sdb.jpg) no-repeat center; }
+          .footer .footer-center .medical-equipment li .order p {
+            position: absolute;
+            top: 20px;
+            left: 85px;
+            width: 55px;
+            height: 76px; }
+        .footer .footer-center .medical-equipment li .order-text {
+          position: absolute;
+          top: 80px;
+          left: 5px;
+          display: block;
+          width: 170px;
+          height: 144px;
+          background: url(../img/hk.jpg) no-repeat center; }
+          .footer .footer-center .medical-equipment li .order-text span {
+            position: absolute;
+            top: 40px;
+            display: block;
+            width: 100%;
+            height: 24px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 24px;
+            color: white; }
+          .footer .footer-center .medical-equipment li .order-text p {
+            position: absolute;
+            top: 70px;
+            left: 24px;
+            width: 122px;
+            height: 50px;
+            color: white;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center; }
+        .footer .footer-center .medical-equipment li:hover .order {
+          background: url(../img/sd.jpg) no-repeat center; }
+        .footer .footer-center .medical-equipment li:hover .order-text {
+          background: url(../img/hhk.jpg) no-repeat center; }
+    .footer .footer-center .consu {
+      margin-top: 150px;
+      height: 230px;
+      width: 100%; }
+      .footer .footer-center .consu .place {
+        width: 280px;
+        height: 200px;
+        float: left;
+        margin-left: 120px; }
+        .footer .footer-center .consu .place .phone {
+          height: 40px;
+          width: 100%;
+          float: left;
+          margin-top: 30px; }
+          .footer .footer-center .consu .place .phone li {
+            height: 40px;
+            width: 100%;
+            float: left;
+            color: white;
+            font-size: 14px; }
+      .footer .footer-center .consu .email {
+        width: 180px;
+        height: 200px;
+        float: left;
+        margin-top: -20px;
+        margin-left: 210px; }
+        .footer .footer-center .consu .email .wx {
+          height: 40px;
+          width: 100%;
+          float: left;
+          margin-top: 50px; }
+          .footer .footer-center .consu .email .wx li {
+            height: 40px;
+            width: 100%;
+            float: left;
+            color: white;
+            font-size: 14px;
+            text-align: right; }
+      .footer .footer-center .consu .zx {
+        position: relative;
+        width: 380px;
+        height: 200px;
+        float: left; }
+      .footer .footer-center .consu .zx .email {
+        width: 380px;
+        height: 200px;
+        float: left; }
+      .footer .footer-center .consu .zx p {
+        width: 100%;
+        height: 30px;
+        margin-top: 30px;
+        line-height: 30px;
+        color: white; }
+      .footer .footer-center .consu .zx .QQ {
+        width: 100%;
+        height: 34px;
+        float: left;
+        background-color: #000; }
+      .footer .footer-center .consu .zx .QQ li {
+        width: 32px;
+        height: 32px;
+        float: left;
+        margin-right: 18px;
+        color: white;
+        font-size: 14px; }
+  .footer .waring {
+    width: 100%;
+    height: 80px;
+    background-color: #161616; }
+    .footer .waring .waring-text {
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto; }
+      .footer .waring .waring-text p {
+        width: 600px;
+        height: 100%;
+        line-height: 80px;
+        color: white;
+        text-indent: center;
+        font-size: 14px;
+        margin: 0 auto; }
+        .footer .waring .waring-text p a {
+          color: white; }
+        .footer .waring .waring-text p a:hover {
+          color: red; }
+
+.footer .footer-center .medical-equipment li:nth-child(1) {
+  margin-left: 126px; }
+
+.footer .footer-center .medical-equipment li:nth-child(1) .order-text img {
+  position: absolute;
+  top: -80px;
+  left: 0; }
+
+/*# sourceMappingURL=walfare.css.map */

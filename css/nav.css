@@ -1,0 +1,88 @@
+.works {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #000; }
+  .works .line {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    margin-left: -258px;
+    display: block;
+    height: 2px;
+    width: 516px;
+    background-color: red; }
+  .works .works-box {
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    top: 100px;
+    width: 260px;
+    height: 100px;
+    background-color: #000;
+    z-index: 99; }
+    .works .works-box span {
+      display: block;
+      width: 100%;
+      top: 30px;
+      color: red;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 15px; }
+    .works .works-box p {
+      width: 100%;
+      height: 30px;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      color: #8c8c8c; }
+
+.works-about-us {
+  position: relative;
+  top: -35px;
+  width: 100%;
+  height: 200px; }
+  .works-about-us .line {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    margin-left: -258px;
+    display: block;
+    height: 2px;
+    width: 128px;
+    background-color: red; }
+  .works-about-us .line2 {
+    position: absolute;
+    top: 128px;
+    left: 880px;
+    display: block;
+    height: 2px;
+    width: 128px;
+    background-color: red; }
+  .works-about-us .works-box {
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    top: 100px;
+    width: 260px;
+    height: 100px;
+    z-index: 99; }
+    .works-about-us .works-box span {
+      display: block;
+      width: 100%;
+      top: 30px;
+      color: red;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 15px; }
+    .works-about-us .works-box p {
+      width: 100%;
+      height: 30px;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      color: #8c8c8c; }
+
+/*# sourceMappingURL=nav.css.map */
